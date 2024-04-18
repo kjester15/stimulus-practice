@@ -1,0 +1,11 @@
+<div data-controller="hello">
+ <input type="text" data-hello-target="name">
+ <button data-action="click->hello#greet">button</button>
+ <div data-hello-target="output"></div>
+</div>
+
+<div data-controller="toggle" data-toggle-primary-class="btn-primary">
+  <button class="btn" data-toggle-target="button" data-action="click->toggle#clicked">
+    CLICK ME
+  </button>
+</div>
